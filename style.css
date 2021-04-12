@@ -6,20 +6,25 @@ body {
 /*header*/
 header {
   background-color: #fff;
-  margin: 0px 100px;
+  margin: 0 20%
+  justify-content: space-between;
 }
 
-nuv {
+.header-ttl {
+  font-size: 20px;
+}
+
+nav {
   display: flex;
 }
 
 ul,
-.nuvber {
+.navber {
   display: flex;
   margin-left: auto;
 }
 
-.nuvber-list {
+.navber-list {
   margin: 0 10px;
   list-style: none;
 }
@@ -145,12 +150,26 @@ dl {
 /*News*/
 
 /*About*/
+
 .about {
   background-color: #f5f5f5;
   margin: 0px 100px;
   padding: 0px 30px;
+  justify-content: center;
 }
 
+.main-left {
+  display: left;
+}
+
+.main-left-p {
+}
+
+.main-right-img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 60%;
+}
 /*About*/
 
 /*Service*/
