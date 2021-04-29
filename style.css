@@ -471,11 +471,15 @@ table {
   color: #fff;
 }
 
-.asd {
-  width: 20px;
-  height: 20px;
+.contact-batton::before {
   position: absolute;
-  left: 20px;
+  top: 50%;
+  right: 15px;
+  background: url(img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
 }
 
 /*contact*/
